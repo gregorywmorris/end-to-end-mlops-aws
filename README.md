@@ -13,38 +13,39 @@
 8. Update the main.py
 9. Update the app.py
 
+## How to run
 
-
-## How to run?
-
-### STEPS:
+### STEPS
 
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/gregorywmorris/end-to-end-mlops-aws.git
 ```
+
 ### STEP 01- Create a conda environment after opening the repository
+
+```bash
+chmod +x ./setup_env.sh
+```
 
 ```bash
 ./setup_env.sh
 ```
 
-If not active after bash script:
-
 ```bash
 conda activate mlops-aws
 ```
 
-Optional if not setup_env.sh: Manually install requirements into your chosen env:
+Optional if not using setup_env.sh: Manually install requirements into your chosen env:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### STEP 02- install the requirements
+### STEP 02- launch the app
 
-Finally run the following command to launch the app:
+Run the following command to launch the app:
 
 ```bash
 python app.py
