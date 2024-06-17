@@ -15,7 +15,8 @@
 
 
 
-# How to run?
+## How to run?
+
 ### STEPS:
 
 Clone the repository
@@ -26,22 +27,26 @@ https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+./setup_env.sh
 ```
+
+If not active after bash script:
 
 ```bash
-conda activate mlproj
+conda activate mlops-aws
 ```
 
-
 ### STEP 02- install the requirements
+
+Optional: Manually install requirements into your chosen env:
+
 ```bash
 pip install -r requirements.txt
 ```
 
+Finally run the following command:
 
 ```bash
-# Finally run the following command
 python app.py
 ```
 
@@ -50,14 +55,12 @@ Now,
 open up you local host and port
 ```
 
-
-
 ## MLflow
 
 [Documentation](https://mlflow.org/docs/latest/index.html)
 
+**cmd**
 
-##### cmd
 - mlflow ui
 
 ### dagshub
