@@ -36,15 +36,15 @@ If not active after bash script:
 conda activate mlops-aws
 ```
 
-### STEP 02- install the requirements
-
-Optional: Manually install requirements into your chosen env:
+Optional if not setup_env.sh: Manually install requirements into your chosen env:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Finally run the following command:
+### STEP 02- install the requirements
+
+Finally run the following command to launch the app:
 
 ```bash
 python app.py
